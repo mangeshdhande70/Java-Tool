@@ -1,0 +1,14 @@
+package com.hibernate.service;
+
+import in.ineuron.runner.dto.StudentDTO;
+
+public interface IStudentService {
+	
+	
+	public Integer addStudent(StudentDTO studentDTO);
+	
+	public StudentDTO findStudentById(Integer id);
+	
+	
+
+}

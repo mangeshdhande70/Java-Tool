@@ -1,0 +1,12 @@
+package in.ineuron.runner.dao;
+
+import in.ineuron.runner.model.StudentInfoGEC;
+
+public interface IStudentDao {
+	
+    public Integer addStudent(StudentInfoGEC student);
+	
+	public StudentInfoGEC findStudentById(Integer id);
+	
+
+}

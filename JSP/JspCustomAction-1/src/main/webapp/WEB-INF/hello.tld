@@ -1,0 +1,16 @@
+<taglib>
+   <jsp-version>2.1</jsp-version>
+   <tlib-version>1.0</tlib-version>
+   
+   <tag>
+     <name>hello</name> 
+     <tag-class>com.custom.handler.HelloHandler</tag-class>
+     <body-content>jsp</body-content>
+     
+		     <attribute>  
+		        <name>name</name>  
+		        <required>true</required>  
+		    </attribute>  
+		    
+  </tag>  
+</taglib>

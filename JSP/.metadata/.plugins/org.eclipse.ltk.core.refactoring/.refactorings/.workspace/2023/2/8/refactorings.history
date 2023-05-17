@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JspCustomActionLoop-2-&apos; to &apos;JspCustomActionLoop-2&apos;" description="Rename resource &apos;JspCustomActionLoop-2-&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JspCustomActionLoop-2-" name="JspCustomActionLoop-2" stamp="1676978867302" updateReferences="true"/>
+</session>

@@ -1,0 +1,42 @@
+package com.hibernate.service;
+
+import com.hibernate.dao.IStudentDao;
+import com.hibernate.dao.StudentDaoImpl;
+import com.hibernate.dto.StudentDTO;
+import com.hibernate.model.StudentInfoGEC;
+
+public class StudentServiceImpl implements IStudentService {
+
+	IStudentDao iStudentDao = new StudentDaoImpl();
+
+	public Integer addStudent(StudentDTO studentDTO) {
+
+		StudentInfoGEC student = new StudentInfoGEC();
+
+		student.setStudentName(studentDTO.getStudentName());
+		student.setBranch(studentDTO.getBranch());
+		student.setProjects(studentDTO.getProjects());
+		student.setContactNo(studentDTO.getContactNo());
+		student.setCgpa(studentDTO.getMarksSemWise());
+		
+		Integer id = iStudentDao.addStudent(student);
+
+		return id;
+	}
+
+	public StudentDTO findStudentById(Integer id) {
+
+		StudentInfoGEC student = iStudentDao.findStudentById(id);
+
+		StudentDTO studentDTO = new StudentDTO();
+
+		studentDTO.setStudentName(student.getStudentName());
+		studentDTO.setBranch(student.getBranch());
+		studentDTO.setContactNo(student.getContactNo());
+		studentDTO.setMarksSemWise(student.getCgpa());
+		studentDTO.setProjects(student.getProjects());
+
+		return studentDTO;
+	}
+
+}

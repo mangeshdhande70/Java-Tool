@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;HB06-update/src/main/java/com.mangesh.model&apos;&#x0D;&#x0A;- Original project: &apos;HB05-load&apos;&#x0D;&#x0A;- Destination element: &apos;HB06-update/src/main/java/com.mangesh.model&apos;&#x0D;&#x0A;- Original element: &apos;com.mangesh.model.Employee.java&apos;" description="Copy compilation unit" destination="=HB06-update/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mangesh.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mangesh.model{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677819428563" units="1" version="1.0"/>
+</session>

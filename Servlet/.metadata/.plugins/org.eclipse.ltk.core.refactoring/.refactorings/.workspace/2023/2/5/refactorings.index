@@ -1,0 +1,7 @@
+1675348315340	Delete resource 'Servers/Tomcat v10.0 Server at localhost-config'
+1675502546999	Delete resource 'HttpInitialization'
+1675505405734	Rename resource 'HttpInitialization'
+1675506028288	Rename resource 'ServletDBCummunication'
+1675519069130	Delete resource 'ServletDBApp'
+1675525702604	Delete resource 'ServletDBInsertApp'
+1675534851035	Delete resource 'ServletContextApp'

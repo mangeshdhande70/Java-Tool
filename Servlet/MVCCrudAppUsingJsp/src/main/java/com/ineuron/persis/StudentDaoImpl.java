@@ -1,0 +1,149 @@
+package com.ineuron.persis;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.ineuron.dto.StudentDTO;
+import com.ineuron.model.JDBCConnection;
+
+public class StudentDaoImpl implements IStudentDao {
+
+	Connection connection = null;
+	PreparedStatement preparedStatement = null;
+	
+	private ResultSet resultSet;
+	
+
+	@Override
+	public String addStudent(String name, int age, String address) throws SQLException {
+		String msg = "";
+		String query = "INSERT INTO student(`sname`,`sage`,`saddres`) VALUES (?,?,?)";
+
+		try {
+			if (connection == null) {
+				connection = JDBCConnection.jdbcConnectionByHikariCP();
+				
+//				System.out.println(""hiii"");
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		if (connection != null)
+			preparedStatement = connection.prepareStatement(query);
+
+		preparedStatement.setString(1, name);
+		preparedStatement.setInt(2, age);
+		preparedStatement.setString(3, address);
+
+		int rowAffected = preparedStatement.executeUpdate();
+
+		if (rowAffected != 0) {
+			msg += "success";
+		} else {
+			msg += "failed";
+		}
+
+		
+		
+		return msg;
+	}
+
+	@Override
+	public StudentDTO searchStudentById(int id) throws SQLException, IOException {
+		
+		String sqlQuery = "SELECT * FROM student WHERE sid=?";
+
+		if (connection == null) {
+			connection = JDBCConnection.jdbcConnectionByHikariCP();
+		}
+
+		if (connection != null)
+			preparedStatement = connection.prepareStatement(sqlQuery);
+
+		preparedStatement.setInt(1, id);
+
+		System.out.println(id);
+
+		resultSet = preparedStatement.executeQuery();
+
+		StudentDTO studentDTO = new StudentDTO();
+
+		if (resultSet.next()) {
+			studentDTO.setId(resultSet.getInt(1));
+			studentDTO.setSname(resultSet.getString(2));
+			studentDTO.setSage(resultSet.getInt(3));
+			studentDTO.setSaddress(resultSet.getString(4));
+		}
+
+		return studentDTO;
+	}
+
+	@Override
+	public String updateStudent(int id , String name,int age,String address) throws SQLException {
+		String msg ="";
+		
+		String query = "UPDATE student SET sname=?,sage=?,saddres=? WHERE sid=?";
+		
+		connection = JDBCConnection.jdbcConnectionByHikariCP();
+		
+		if (connection!=null) {
+			preparedStatement = connection.prepareStatement(query);
+		
+		preparedStatement.setString(1, name);	
+		preparedStatement.setInt(2, age);	
+		preparedStatement.setString(3, address);
+		preparedStatement.setInt(4, id);
+		
+		int rowAffected = preparedStatement.executeUpdate();
+		
+		if (rowAffected==1) {
+			msg+="success";
+		}else {
+			msg+="failed";
+		}
+			
+		}
+	
+		return msg;
+	}
+
+	@Override
+	public String deleteStudent(int id) {
+		String msg = "";
+		String sqlQuery = "DELETE FROM student WHERE sid = ?";
+
+		try {
+			if (connection == null) {
+				connection = JDBCConnection.jdbcConnectionByHikariCP();
+			}
+
+			if (connection != null) {
+				preparedStatement = connection.prepareStatement(sqlQuery);
+
+				preparedStatement.setInt(1, id);
+
+				int rowAffected = preparedStatement.executeUpdate();
+
+				if (rowAffected == 1) {
+					msg += "success";
+				} else {
+					msg += "failed";
+				}
+
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return msg;
+	}
+
+}

@@ -1,0 +1,42 @@
+package com.hibernate.service;
+
+import in.ineuron.runner.dao.IStudentDao;
+import in.ineuron.runner.dao.StudentDaoImpl;
+import in.ineuron.runner.dto.StudentDTO;
+import in.ineuron.runner.model.StudentInfoGEC;
+
+public class StudentServiceImpl implements IStudentService {
+
+	IStudentDao iStudentDao = new StudentDaoImpl();
+
+	public Integer addStudent(StudentDTO studentDTO) {
+
+		StudentInfoGEC student = new StudentInfoGEC();
+
+		student.setStudentName(studentDTO.getStudentName());
+		student.setBranch(studentDTO.getBranch());
+		student.setProjects(studentDTO.getProjects());
+		student.setContactNo(studentDTO.getContactNo());
+		student.setMarksSemWise(studentDTO.getMarksSemWise());
+		
+		Integer id = iStudentDao.addStudent(student);
+
+		return id;
+	}
+
+	public StudentDTO findStudentById(Integer id) {
+
+		StudentInfoGEC student = iStudentDao.findStudentById(id);
+
+		StudentDTO studentDTO = new StudentDTO();
+
+		studentDTO.setStudentName(student.getStudentName());
+		studentDTO.setBranch(student.getBranch());
+		studentDTO.setContactNo(student.getContactNo());
+		studentDTO.setMarksSemWise(student.getMarksSemWise());
+		studentDTO.setProjects(student.getProjects());
+
+		return studentDTO;
+	}
+
+}

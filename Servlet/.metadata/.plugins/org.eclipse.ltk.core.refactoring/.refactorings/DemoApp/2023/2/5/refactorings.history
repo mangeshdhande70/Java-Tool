@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public void doProcess(HttpServletResponse response) throws IOException &apos; from &apos;com.ineuron.controller.TestApp.doGet(...)&apos; to &apos;com.ineuron.controller.TestApp&apos;&#x0D;&#x0A;- Original project: &apos;DemoApp&apos;&#x0D;&#x0A;- Method name: &apos;doProcess&apos;&#x0D;&#x0A;- Destination type: &apos;com.ineuron.controller.TestApp&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;doProcess&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/main\/java&lt;com.ineuron.controller{TestApp.java" name="doProcess" replace="false" selection="576 39" stamp="1675523704688" version="1.0" visibility="1"/>
+</session>

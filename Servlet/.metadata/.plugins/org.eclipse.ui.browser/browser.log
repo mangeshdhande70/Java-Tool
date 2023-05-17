@@ -1,0 +1,116 @@
+
+Feb 01, 2023 10:33:30.345 NEW SESSION
+Feb 01, 2023 10:33:30.345 [25388:8428:0201/103330.341:ERROR:device_event_log_impl.cc(215)] [10:33:30.341] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 01, 2023 10:33:30.354 [25388:8428:0201/103330.353:ERROR:device_event_log_impl.cc(215)] [10:33:30.354] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 01, 2023 10:33:30.383 [25388:8428:0201/103330.382:ERROR:device_event_log_impl.cc(215)] [10:33:30.382] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Feb 01, 2023 11:27:31.557 [25388:8428:0201/112731.556:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+Feb 01, 2023 11:46:50.625 [25388:5612:0201/114650.625:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 11:47:13.710 [25388:5612:0201/114713.710:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 11:48:03.542 [25388:5612:0201/114803.542:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 11:49:46.405 [25388:5612:0201/114946.405:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 11:52:33.26 [25388:5612:0201/115233.026:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 11:58:30.620 [25388:5612:0201/115830.620:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:08:30.623 [25388:5612:0201/120830.623:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:18:30.634 [25388:5612:0201/121830.634:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:28:30.656 [25388:5612:0201/122830.656:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:30:55.704 [25388:5612:0201/123055.704:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:30:59.784 [25388:5612:0201/123059.783:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:32:04.303 [25388:8428:0201/123204.303:ERROR:device_event_log_impl.cc(215)] [12:32:04.303] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 01, 2023 12:33:47.191 [25388:5612:0201/123347.190:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:33:51.411 [25388:21884:0201/123351.411:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for mtalk.google.com failed:
+Feb 01, 2023 12:33:51.415 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:33:51.416 ERROR: No matching issuer found
+Feb 01, 2023 12:33:51.416 
+Feb 01, 2023 12:33:51.416 
+Feb 01, 2023 12:33:51.416 [25388:5612:0201/123351.414:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -202
+Feb 01, 2023 12:33:55.382 [25388:9104:0201/123355.381:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for data.flipshope.com failed:
+Feb 01, 2023 12:33:55.384 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:33:55.386 ERROR: No matching issuer found
+Feb 01, 2023 12:33:55.388 
+Feb 01, 2023 12:33:55.390 
+Feb 01, 2023 12:33:55.628 [25388:9104:0201/123355.628:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for d27xxe7juh1us6.cloudfront.net failed:
+Feb 01, 2023 12:33:55.628 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:33:55.628 ERROR: No matching issuer found
+Feb 01, 2023 12:33:55.645 
+Feb 01, 2023 12:33:55.645 
+Feb 01, 2023 12:33:57.586 [25388:9104:0201/123357.586:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for f-log-extension.grammarly.io failed:
+Feb 01, 2023 12:33:57.603 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:33:57.603 ERROR: No matching issuer found
+Feb 01, 2023 12:33:57.603 
+Feb 01, 2023 12:33:57.603 
+Feb 01, 2023 12:33:58.824 [25388:9104:0201/123358.824:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for optimizationguide-pa.googleapis.com failed:
+Feb 01, 2023 12:33:58.824 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:33:58.824 ERROR: No matching issuer found
+Feb 01, 2023 12:33:58.824 
+Feb 01, 2023 12:33:58.824 
+Feb 01, 2023 12:34:09.57 [25388:9104:0201/123409.057:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for clients4.google.com failed:
+Feb 01, 2023 12:34:09.57 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:34:09.73 ERROR: No matching issuer found
+Feb 01, 2023 12:34:09.74 
+Feb 01, 2023 12:34:09.74 
+Feb 01, 2023 12:34:32.838 [25388:21884:0201/123432.837:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for easylist-downloads.adblockplus.org failed:
+Feb 01, 2023 12:34:32.840 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:34:32.841 ERROR: No matching issuer found
+Feb 01, 2023 12:34:32.843 
+Feb 01, 2023 12:34:32.844 
+Feb 01, 2023 12:34:43.678 [25388:25436:0201/123443.678:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+Feb 01, 2023 12:34:43.678 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:34:43.678 ERROR: No matching issuer found
+Feb 01, 2023 12:34:43.686 
+Feb 01, 2023 12:34:43.686 
+Feb 01, 2023 12:35:06.764 [25388:5612:0201/123506.763:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:35:16.435 [25388:5612:0201/123516.435:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -202
+Feb 01, 2023 12:35:16.867 [25388:21884:0201/123516.867:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for beacons2.gvt2.com failed:
+Feb 01, 2023 12:35:16.867 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:35:16.867 ERROR: No matching issuer found
+Feb 01, 2023 12:35:16.870 
+Feb 01, 2023 12:35:16.870 
+Feb 01, 2023 12:35:19.454 [25388:10888:0201/123519.454:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for beacons3.gvt2.com failed:
+Feb 01, 2023 12:35:19.462 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:35:19.462 ERROR: No matching issuer found
+Feb 01, 2023 12:35:19.462 
+Feb 01, 2023 12:35:19.462 
+Feb 01, 2023 12:35:24.277 [25388:24036:0201/123524.275:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for beacons4.gvt2.com failed:
+Feb 01, 2023 12:35:24.280 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:35:24.281 ERROR: No matching issuer found
+Feb 01, 2023 12:35:24.282 
+Feb 01, 2023 12:35:24.284 
+Feb 01, 2023 12:35:37.605 [25388:10888:0201/123537.605:ERROR:cert_verify_proc_builtin.cc(676)] CertVerifyProcBuiltin for beacons5.gvt2.com failed:
+Feb 01, 2023 12:35:37.605 ----- Certificate i=0 (2.5.4.41=#53534C412D53656C662D5369676E65642D4365727469666963617465) -----
+Feb 01, 2023 12:35:37.605 ERROR: No matching issuer found
+Feb 01, 2023 12:35:37.605 
+Feb 01, 2023 12:35:37.605 
+Feb 01, 2023 12:37:10.287 [25388:5612:0201/123710.286:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:37:49.417 [25388:5612:0201/123749.411:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:37:55.140 [25388:5612:0201/123755.140:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:37:58.850 [25388:5612:0201/123758.849:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:38:14.760 [25388:5612:0201/123814.752:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:38:17.681 [25388:21228:0201/123817.680:ERROR:dns_config_service.cc(273)] DNS config watch failed.
+Feb 01, 2023 12:38:31.691 [25388:5612:0201/123831.689:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:38:46.781 [25388:5612:0201/123846.781:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 12:50:20.977 [25388:5612:0201/125020.977:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Feb 01, 2023 13:10:39.630 [25388:5612:0201/131039.630:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 13:10:47.134 [25388:5612:0201/131047.134:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2023 13:11:27.27 [25388:5612:0201/131127.027:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -118
+
+Feb 02, 2023 22:35:50.602 NEW SESSION
+Feb 02, 2023 22:35:50.602 [23208:3444:0202/223550.582:ERROR:device_event_log_impl.cc(215)] [22:35:50.582] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 02, 2023 22:35:50.623 [23208:3444:0202/223550.595:ERROR:device_event_log_impl.cc(215)] [22:35:50.595] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 02, 2023 22:35:50.658 [23208:3444:0202/223550.636:ERROR:device_event_log_impl.cc(215)] [22:35:50.636] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+
+Feb 06, 2023 02:09:55.674 NEW SESSION
+Feb 06, 2023 02:09:55.675 [25664:24584:0206/020955.655:ERROR:device_event_log_impl.cc(215)] [02:09:55.656] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 06, 2023 02:09:55.686 [25664:24584:0206/020955.669:ERROR:device_event_log_impl.cc(215)] [02:09:55.670] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 06, 2023 02:09:55.703 [25664:24584:0206/020955.693:ERROR:device_event_log_impl.cc(215)] [02:09:55.693] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+
+Feb 06, 2023 19:08:46.545 NEW SESSION
+Feb 06, 2023 19:08:46.546 [10732:12264:0206/190846.544:ERROR:device_event_log_impl.cc(215)] [19:08:46.544] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 06, 2023 19:08:46.549 [10732:12264:0206/190846.549:ERROR:device_event_log_impl.cc(215)] [19:08:46.549] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Feb 06, 2023 19:08:46.559 [10732:12264:0206/190846.558:ERROR:device_event_log_impl.cc(215)] [19:08:46.558] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 06, 2023 20:37:42.81 [10732:12264:0206/203742.013:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+Feb 06, 2023 21:13:27.832 [10732:12264:0206/211327.832:ERROR:device_event_log_impl.cc(215)] [21:13:27.831] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+
+Feb 14, 2023 09:02:57.245 NEW SESSION
+Feb 14, 2023 09:02:57.246 [23676:11556:0214/090257.207:ERROR:device_event_log_impl.cc(215)] [09:02:57.207] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 14, 2023 09:02:57.263 [23676:11556:0214/090257.222:ERROR:device_event_log_impl.cc(215)] [09:02:57.222] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 14, 2023 09:02:57.303 [23676:11556:0214/090257.258:ERROR:device_event_log_impl.cc(215)] [09:02:57.258] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.

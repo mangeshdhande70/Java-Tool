@@ -1,0 +1,12 @@
+package com.hibernate.dao;
+
+
+
+public interface IStudentDao {
+	
+    public Integer addStudent(StudentInfoGEC student);
+	
+	public StudentInfoGEC findStudentById(Integer id);
+	
+
+}
